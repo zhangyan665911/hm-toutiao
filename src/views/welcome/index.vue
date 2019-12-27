@@ -1,0 +1,32 @@
+<template>
+  <div class="container-welcome">
+    <!-- <el-button @click="getUserMessage">获取数据</el-button> -->
+  </div>
+</template>
+
+<script>
+export default {
+  created () {
+    // this.getUserMessage()
+  },
+  methods: {
+    /* getUserMessage () {
+      this.$http.get('user/profile')
+        .then(res => {
+          console.log(res.data)
+        })
+        .catch(e => {
+          console.log(e)
+        })
+    } */
+  }
+}
+</script>
+
+<style lang="less" scoped>
+.container-welcome{
+  width:100%;
+  height:100%;
+  background: url(../../assets/welcome.jpg) no-repeat center;
+}
+</style>
